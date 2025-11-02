@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Gallery - TravelTime Bootstrap Template</title>
+  <title>Gallery - Sandscape Voyages Jaisalmer</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -35,31 +35,45 @@
   ======================================================== -->
 </head>
 
-<body class="gallery-page">
+<body class="destinations-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">TravelTime</h1>
+        <img class="rounded-circle" src="assets/img/logo2.png" alt="">
+        <!-- <h1 class="sitename">TravelTime</h1> -->
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="destinations.html">Destinations</a></li>
+          <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Hotel</a></li>
+              <li><a href="#">City Sightseeing</a></li>
+              <li><a href="#">Desert Safari</a></li>
+              <li><a href="#">Taxi Cab Service</a></li>
+              <li><a href="#">Guide Service</a></li>
+              <li><a href="#">Jeep Safari</a></li>
+              <li><a href="#">Camel Safari</a></li>
+              <li><a href="#">Quad Biking</a></li>
+              <li><a href="#">Dinner On Dunes</a></li>
+              <li><a href="#">Non Touristic Safari</a></li>
+              <li><a href="#">Shopping</a></li>
+            </ul>
+          </li>
           <li><a href="tours.html">Tours</a></li>
           <li><a href="gallery.html" class="active">Gallery</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="destination-details.html">Destination Details</a></li>
+              <li><a href="service-details.html">Destination Details</a></li>
               <li><a href="tour-details.html">Tour Details</a></li>
               <li><a href="booking.html">Booking</a></li>
-              <li><a href="testimonials">Testimonials</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
               <li><a href="faq.html">Frequently Asked Questions</a></li>
               <li><a href="blog-details.html">Blog Details</a></li>
               <li><a href="terms.html">Terms</a></li>
@@ -97,10 +111,10 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/travel/showcase-11.webp);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/travel/jaisalmer-view.jpg);">
       <div class="container position-relative">
         <h1>Gallery</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <!-- <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p> -->
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -110,250 +124,1139 @@
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Gallery Slider Section -->
-    <section id="gallery-slider" class="gallery-slider section">
+    <!-- Travel Destinations Section -->
+    <section id="travel-destinations gallery" class="travel-destinations gallery section">
 
       <div class="container">
 
-        <div class="gallery-container">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 800,
-                "autoplay": {
-                  "delay": 4000
-                },
-                "effect": "coverflow",
-                "grabCursor": true,
-                "centeredSlides": true,
-                "slidesPerView": "auto",
-                "coverflowEffect": {
-                  "rotate": 50,
-                  "stretch": 0,
-                  "depth": 100,
-                  "modifier": 1,
-                  "slideShadows": true
-                },
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "navigation": {
-                  "nextEl": ".swiper-button-next",
-                  "prevEl": ".swiper-button-prev"
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 10
-                  },
-                  "768": {
-                    "slidesPerView": 2,
-                    "spaceBetween": 20
-                  },
-                  "1024": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 30
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <!-- <h2>See the beauty of Jaisalmer's vibrant markets, stunning havelies, and awe-inspiring Thar desert through Karan Desert Safari's photo gallery. These glamorous images showcase the diverse culture and rich heritage of this unique destination and are sure to leave you inspired to visit Golden City.</h2> -->
+            <!-- <p class="mb-5">See the beauty of Jaisalmer's vibrant markets, stunning havelies, and awe-inspiring Thar desert through Sandscape Voyages Jaisalmar's photo gallery. These glamorous images showcase the diverse culture and rich heritage of this unique destination and are sure to leave you inspired to visit Golden City.</p> -->
+          </div>
+        </div>
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
+
+          <div class="filter-tabs">
+            <ul class="destination-filters isotope-filters d-flex flex-wrap justify-content-center">
+              <li data-filter=".filter-hotel" >Hotel</li>
+              <li data-filter=".filter-city-sightseeing" >City Sightseeing</li>
+              <li data-filter=".filter-desert-safari" >Desert Safari</li>
+              <li data-filter=".filter-taxi-cab-service" >Taxi Cab Service</li>
+              <li data-filter=".filter-guide-service" >Guide Service</li>
+              <li data-filter=".filter-jeep-safari" >Jeep Safari</li>
+              <li data-filter=".filter-camel-safari" >Camel Safari</li>
+              <li data-filter=".filter-quad-biking" >Quad Biking</li>
+              <li data-filter=".filter-dinner-on-dunes" >Dinner On Dunes</li>
+              <li data-filter=".filter-non-touristic-safari" >Non Touristic Safari</li>
+              <li data-filter=".filter-shopping" >Shopping</li>
+            </ul>
+          </div>
+
+          <div class="row gy-4 isotope-container destination-grid">
+
+            <div class="col-lg-12 destination-item isotope-item filter-hotel">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-1.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-1.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-2.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-2.jpg" class="img-fluid w-100" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-3.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-5.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-4.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-4.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-5.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-3.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-6.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-6.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-7.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-7.jpg" class="img-fluid " alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-8.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-7.jpg" class="img-fluid " alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-9.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-9.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-10.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-10.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-11.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-11.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-12.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-12.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-13.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-13.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-14.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-14.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery-hotel" href="assets/img/gallery/hotel/hotel-15.jpg">
+                    <img src="assets/img/gallery/hotel/hotel-15.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-city-sightseeing">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-1.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-1.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-2.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-2.jpg" class="img-fluid w-100" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-3.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-3.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-4.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-4.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-5.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-5.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-6.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-6.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-7.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-7.jpg" class="img-fluid " alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-8.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-8.jpg" class="img-fluid " alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-9.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-9.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-10.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-10.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-11.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-11.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-12.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-12.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-13.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-13.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-14.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-14.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-15.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-15.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-16.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-16.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-17.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-17.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-18.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-18.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-19.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-19.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/city-sightseeing/city-sightseeing-20.jpg">
+                    <img src="assets/img/gallery/city-sightseeing/city-sightseeing-20.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-desert-safari">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-1.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-1.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-2.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-2.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-3.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-3.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-4.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-4.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-5.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-5.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-6.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-6.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-10.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-10.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-7.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-7.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-9.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-9.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-8.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-8.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-11.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-11.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-14.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-14.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-13.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-13.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-12.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-12.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-15.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-15.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-17.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-17.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-16.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-16.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-18.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-18.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-19.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-19.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/desert-safari/desert-safari-20.jpg">
+                    <img src="assets/img/gallery/desert-safari/desert-safari-20.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-taxi-cab-service">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/taxi-cab-service/taxi-cab-service-1.jpg">
+                    <img src="assets/img/gallery/taxi-cab-service/taxi-cab-service-1.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/taxi-cab-service/taxi-cab-service-2.jpg">
+                    <img src="assets/img/gallery/taxi-cab-service/taxi-cab-service-2.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/taxi-cab-service/taxi-cab-service-3.jpg">
+                    <img src="assets/img/gallery/taxi-cab-service/taxi-cab-service-3.jpg" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-guide-service">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-jeep-safari">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-camel-safari">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-quad-biking">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-dinner-on-dunes">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-non-touristic-safari">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            <div class="col-lg-12 destination-item isotope-item filter-shopping">
+              <div class="gallery-grid">
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
+                    <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
+                    <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
+                    <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
+                    <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
+                    <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
+                    <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item featured">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
+                    <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="gallery-item">
+                  <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
+                    <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
+                    <div class="gallery-overlay">
+                      <i class="bi bi-plus-lg"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Destination Item -->
+
+            
+          </div><!-- End Destination Items Container -->
+
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              // Wait until Isotope is ready
+              setTimeout(function () {
+                // Find your Isotope container (adjust selector if needed)
+                var grid = document.querySelector('.isotope-container');
+                if (grid && typeof Isotope !== 'undefined') {
+                  // Initialize Isotope (or re-filter if already initialized)
+                  var iso = Isotope.data(grid);
+                  if (iso) {
+                    iso.arrange({ filter: '.filter-hotel' }); // ✅ show only hotel
                   }
                 }
-              }
-            </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
-                      <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
-                      <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
-                      <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
-                      <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
-                      <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
-                      <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
-                      <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="gallery-item">
-                  <div class="gallery-img">
-                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
-                      <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
-                      <div class="gallery-overlay">
-                        <i class="bi bi-plus-circle"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
+
+                // Update filter buttons
+                document.querySelectorAll('.isotope-filters li').forEach(li => li.classList.remove('filter-active'));
+                document.querySelector('.isotope-filters li[data-filter=".filter-hotel"]').classList.add('filter-active');
+              }, 500); // small delay to ensure Isotope is loaded
+            });
+          </script>
+
         </div>
 
       </div>
 
-    </section><!-- /Gallery Slider Section -->
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
-
-      <div class="container">
-
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.webp">
-              <img src="assets/img/gallery/gallery-3.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item featured">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.webp">
-              <img src="assets/img/gallery/gallery-1.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.webp">
-              <img src="assets/img/gallery/gallery-5.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.webp">
-              <img src="assets/img/gallery/gallery-7.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.webp">
-              <img src="assets/img/gallery/gallery-2.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.webp">
-              <img src="assets/img/gallery/gallery-4.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item featured">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.webp">
-              <img src="assets/img/gallery/gallery-6.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-
-          <div class="gallery-item">
-            <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.webp">
-              <img src="assets/img/gallery/gallery-8.webp" class="img-fluid" alt="">
-              <div class="gallery-overlay">
-                <i class="bi bi-plus-lg"></i>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="text-center mt-5">
-          <a href="#" class="btn-view-more">View More <i class="bi bi-arrow-right"></i></a>
-        </div>
-
-      </div>
-
-    </section><!-- /Gallery Section -->
+    </section><!-- /Travel Destinations Section -->
 
   </main>
 
@@ -365,11 +1268,12 @@
         <div class="col-lg-4">
           <div class="footer-content">
             <a href="index.html" class="logo d-flex align-items-center mb-4">
-              <span class="sitename">TravelTime</span>
+              <img class="w-75" src="assets/img/logo2.png" alt="">
+              <!-- <span class="sitename">TravelTime</span> -->
             </a>
-            <p class="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.</p>
+            <p class="mb-4">Make your tour memorable with us.</p>
 
-            <div class="newsletter-form">
+            <!-- <div class="newsletter-form">
               <h5>Stay Updated</h5>
               <form action="forms/newsletter.php" method="post" class="php-email-form">
                 <div class="input-group">
@@ -382,32 +1286,39 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Thank you for subscribing!</div>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-lg-2 col-6">
           <div class="footer-links">
-            <h4>Company</h4>
+            <h4>Quick Links</h4>
             <ul>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> About</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Careers</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Press</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i> About</a></li>
+              <li><a href="services.html"><i class="bi bi-chevron-right"></i> Services</a></li>
+              <!-- <li><a href="#"><i class="bi bi-chevron-right"></i> Tours</a></li> -->
+              <li><a href="gallery.html"><i class="bi bi-chevron-right"></i> Gallery</a></li>
+              <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact</a></li>
             </ul>
           </div>
         </div>
 
         <div class="col-lg-2 col-6">
           <div class="footer-links">
-            <h4>Solutions</h4>
+            <h4>Services</h4>
             <ul>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Digital Strategy</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Cloud Computing</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Data Analytics</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> AI Solutions</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Cybersecurity</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Hotel</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> City Sightseeing</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Desert Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Taxi Cab Service</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Guide Service</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Jeep Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Camel Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Quad Biking</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Dinner On Dunes</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Non Touristic Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Shopping</a></li>
+
             </ul>
           </div>
         </div>
@@ -420,7 +1331,7 @@
                 <i class="bi bi-geo-alt"></i>
               </div>
               <div class="contact-info">
-                <p>2847 Maple Avenue<br>Los Angeles, CA 90210<br>United States</p>
+                <p>Mali Para<br>Jaisalmer-345001</p>
               </div>
             </div>
 
@@ -429,7 +1340,8 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <div class="contact-info">
-                <p>+1 (555) 987-6543</p>
+                <p>+91 8290288696</p>
+                <p>+91 8290470696</p>
               </div>
             </div>
 
@@ -438,16 +1350,16 @@
                 <i class="bi bi-envelope"></i>
               </div>
               <div class="contact-info">
-                <p>contact@example.com</p>
+                <p>sandscapevoyagesjaisalmer@gmail.com</p>
               </div>
             </div>
 
             <div class="social-links">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-youtube"></i></a>
-              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="https://www.facebook.com/sandscapevoyagesjaisalmer"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/sandscapevoyagesjaisalmer"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.instagram.com/sandscapevoyagesjaisalmer"><i class="bi bi-instagram"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=+91-8290288696&text=Hi!"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.youtube.com/sandscapevoyagesjaisalmer"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
         </div>
@@ -460,21 +1372,21 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="copyright">
-              <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+              <p>© <span>Copyright</span> <strong class="px-1 sitename">Sandscape Voyages Jaisalmar</strong> <span>All Rights Reserved</span></p>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="footer-bottom-links">
+            <!-- <div class="footer-bottom-links">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
               <a href="#">Cookie Policy</a>
-            </div>
+            </div> -->
             <div class="credits">
               <!-- All the links in the footer should remain intact. -->
               <!-- You can delete the links only if you've purchased the pro version. -->
               <!-- Licensing information: https://bootstrapmade.com/license/ -->
               <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://linkedin.com/in/gaurav110601/">Gaurav Sharma</a>
             </div>
           </div>
         </div>
