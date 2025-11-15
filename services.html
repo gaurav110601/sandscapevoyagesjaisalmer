@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Destinations - TravelTime Bootstrap Template</title>
+  <title>Services - Sandscape Voyages Jaisalmer</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -35,22 +35,36 @@
   ======================================================== -->
 </head>
 
-<body class="destinations-page">
+<body class="tours-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">TravelTime</h1>
+        <img class="rounded-circle" src="assets/img/logo2.png" alt="">
+        <!-- <h1 class="sitename">TravelTime</h1> -->
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Destinations</a></li>
+          <li class="dropdown"><a href="services.html" class="active"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Hotel</a></li>
+              <li><a href="#">City Sightseeing</a></li>
+              <li><a href="#">Desert Safari</a></li>
+              <li><a href="#">Taxi Cab Service</a></li>
+              <li><a href="#">Guide Service</a></li>
+              <li><a href="#">Jeep Safari</a></li>
+              <li><a href="#">Camel Safari</a></li>
+              <li><a href="#">Quad Biking</a></li>
+              <li><a href="#">Dinner On Dunes</a></li>
+              <li><a href="#">Non Touristic Safari</a></li>
+              <li><a href="#">Shopping</a></li>
+            </ul>
+          </li>
           <li><a href="tours.html">Tours</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -59,7 +73,7 @@
               <li><a href="service-details.html">Destination Details</a></li>
               <li><a href="tour-details.html">Tour Details</a></li>
               <li><a href="booking.html">Booking</a></li>
-              <li><a href="testimonials">Testimonials</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
               <li><a href="faq.html">Frequently Asked Questions</a></li>
               <li><a href="blog-details.html">Blog Details</a></li>
               <li><a href="terms.html">Terms</a></li>
@@ -99,243 +113,440 @@
     <!-- Page Title -->
     <div class="page-title dark-background" style="background-image: url(assets/img/travel/showcase-11.webp);">
       <div class="container position-relative">
-        <h1>Destinations</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <h1>Services</h1>
+        <!-- <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
+          molestias.</p> -->
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Destinations</li>
+            <li class="current">Services</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Travel Destinations Section -->
-    <section id="travel-destinations" class="travel-destinations section">
+    <!-- Travel Tours Section -->
+    <section id="travel-tours" class="travel-tours section">
 
       <div class="container">
 
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2>Discover Amazing Travel Destinations</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- Hero Introduction -->
+        <!-- <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2 class="hero-title">Discover Your Next Adventure</h2>
+            <p class="hero-description">Curated travel experiences that transform journeys into unforgettable stories.
+              Filter by your preferences and find the perfect escape.</p>
           </div>
-        </div>
+        </div> -->
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
-
-          <div class="filter-tabs">
-            <ul class="destination-filters isotope-filters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-asia">Asia</li>
-              <li data-filter=".filter-europe">Europe</li>
-              <li data-filter=".filter-africa">Africa</li>
-              <li data-filter=".filter-america">Americas</li>
-            </ul>
+        <!-- Search & Filters -->
+        <!-- <div class="row justify-content-center mb-5">
+          <div class="col-lg-10">
+            <div class="search-container">
+              <div class="search-bar">
+                <input type="text" class="form-control" placeholder="Where would you like to go?">
+                <button class="search-btn">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+              <div class="filter-pills">
+                <button class="filter-pill active" data-filter="all">All Tours</button>
+                <button class="filter-pill" data-filter="adventure">Adventure</button>
+                <button class="filter-pill" data-filter="luxury">Luxury</button>
+                <button class="filter-pill" data-filter="cultural">Cultural</button>
+                <button class="filter-pill" data-filter="family">Family</button>
+              </div>
+            </div>
           </div>
+        </div> -->
 
-          <div class="row gy-4 isotope-container destination-grid">
-
-            <div class="col-lg-12 destination-item isotope-item filter-europe">
-              <div class="destination-large">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-2.webp" alt="Paris, France" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag featured">Featured</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h3>Paris, France</h3>
-                      <p class="destination-excerpt">City of lights and romance with iconic landmarks and world-class museums</p>
-                      <div class="destination-info">
-                        <div class="info-item">
-                          <i class="bi bi-geo-alt"></i>
-                          <span>15 Tours</span>
-                        </div>
-                        <div class="price-tag">From $1,299</div>
-                      </div>
-                      <a href="service-details.html" class="explore-btn">
-                        <span>Explore Now</span>
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
+        <!-- Featured Hero Tour -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <div class="featured-hero-tour">
+              <div class="featured-image">
+                <img src="assets/img/travel/desert-safari.jpg" alt="Featured Destination" class="img-fluid">
+              </div>
+              <div class="featured-content">
+                <div class="featured-badge">Editor's Choice</div>
+                <h3>Desert Safari</h3>
+                <p>Enjoy the thrill of dune bashing, camel rides, jeep safari, dinner and starry nights with the ultimate glamping experience with our luxury tents in the heart of the Thar desert with our customised safari tours in Jaisalmer.</p>
+                <!-- <div class="featured-meta">
+                  <span class="duration">12 Days</span>
+                  <span class="group-size">Max 8 People</span>
+                  <span class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    4.9
+                  </span>
+                </div> -->
+                <div class="featured-price">
+                  <!-- <span class="from">From</span> -->
+                  <span class="amount">₹6,000</span>
+                  <span class="from">per couple</span>
+                </div>
+                <div class="featured-actions">
+                  <a href="/desert-safari-details.html" class="btn btn-primary">Explore</a>
+                  <!-- <a href="#" class="btn btn-text">View Itinerary</a> -->
                 </div>
               </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-3 col-md-6 destination-item isotope-item filter-asia">
-              <div class="destination-small">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-4.webp" alt="Bali, Indonesia" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag popular">Popular</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h4>Bali, Indonesia</h4>
-                      <div class="destination-info">
-                        <span class="tours-count">8 Tours</span>
-                        <span class="price">$899</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-3 col-md-6 destination-item isotope-item filter-america">
-              <div class="destination-small">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-6.webp" alt="Costa Rica" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag adventure">Adventure</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h4>Costa Rica</h4>
-                      <div class="destination-info">
-                        <span class="tours-count">6 Tours</span>
-                        <span class="price">$1,199</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-3 col-md-6 destination-item isotope-item filter-africa">
-              <div class="destination-small">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-8.webp" alt="Cairo, Egypt" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag culture">Culture</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h4>Cairo, Egypt</h4>
-                      <div class="destination-info">
-                        <span class="tours-count">7 Tours</span>
-                        <span class="price">$1,499</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-3 col-md-6 destination-item isotope-item filter-asia">
-              <div class="destination-small">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-9.webp" alt="Singapore" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag luxury">Luxury</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h4>Singapore</h4>
-                      <div class="destination-info">
-                        <span class="tours-count">12 Tours</span>
-                        <span class="price">$1,799</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-europe">
-              <div class="destination-medium">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-10.webp" alt="Santorini, Greece" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag romantic">Romantic</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h3>Santorini, Greece</h3>
-                      <p class="destination-excerpt">Stunning sunsets and white-washed buildings overlooking the Aegean Sea</p>
-                      <div class="destination-info">
-                        <div class="info-item">
-                          <i class="bi bi-heart"></i>
-                          <span>10 Tours</span>
-                        </div>
-                        <div class="price-tag">From $1,599</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-america">
-              <div class="destination-medium">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-12.webp" alt="Rio de Janeiro, Brazil" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag vibrant">Vibrant</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h3>Rio de Janeiro</h3>
-                      <p class="destination-excerpt">Spectacular beaches, vibrant carnival culture, and iconic Christ statue</p>
-                      <div class="destination-info">
-                        <div class="info-item">
-                          <i class="bi bi-sun"></i>
-                          <span>9 Tours</span>
-                        </div>
-                        <div class="price-tag">From $1,799</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-            <div class="col-lg-4 col-md-6 destination-item isotope-item filter-africa">
-              <div class="destination-medium">
-                <div class="destination-overlay">
-                  <img src="assets/img/travel/destination-14.webp" alt="Cape Town, South Africa" class="img-fluid" loading="lazy">
-                  <div class="overlay-content">
-                    <div class="badge-wrapper">
-                      <span class="destination-tag scenic">Scenic</span>
-                    </div>
-                    <div class="content-wrapper">
-                      <h3>Cape Town</h3>
-                      <p class="destination-excerpt">Dramatic mountains, pristine beaches, and world-renowned wine regions</p>
-                      <div class="destination-info">
-                        <div class="info-item">
-                          <i class="bi bi-camera"></i>
-                          <span>11 Tours</span>
-                        </div>
-                        <div class="price-tag">From $1,699</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Destination Item -->
-
-          </div><!-- End Destination Items Container -->
-
-        </div>
-
-        <div class="row justify-content-center mt-5">
-          <div class="col-lg-6 text-center">
-            <div class="explore-more">
-              <h4>Ready to Start Your Journey?</h4>
-              <p class="mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
-              <a href="#" class="btn-explore">
-                <span>View All Destinations</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
             </div>
           </div>
         </div>
 
+        <!-- Quick Categories -->
+        <!-- <div class="row mb-5">
+          <div class="col-12">
+            <h3 class="section-subtitle">Explore by Interest</h3>
+            <div class="categories-grid">
+              <div class="category-item">
+                <div class="category-visual">
+                  <img src="assets/img/travel/misc-3.webp" alt="Mountain Adventures" class="img-fluid">
+                </div>
+                <h5>Mountain Adventures</h5>
+                <span class="tour-count">24 tours</span>
+              </div>
+              <div class="category-item">
+                <div class="category-visual">
+                  <img src="assets/img/travel/misc-7.webp" alt="Cultural Heritage" class="img-fluid">
+                </div>
+                <h5>Cultural Heritage</h5>
+                <span class="tour-count">18 tours</span>
+              </div>
+              <div class="category-item">
+                <div class="category-visual">
+                  <img src="assets/img/travel/misc-11.webp" alt="Coastal Escapes" class="img-fluid">
+                </div>
+                <h5>Coastal Escapes</h5>
+                <span class="tour-count">32 tours</span>
+              </div>
+              <div class="category-item">
+                <div class="category-visual">
+                  <img src="assets/img/travel/misc-15.webp" alt="Wildlife Safari" class="img-fluid">
+                </div>
+                <h5>Wildlife Safari</h5>
+                <span class="tour-count">16 tours</span>
+              </div>
+              <div class="category-item">
+                <div class="category-visual">
+                  <img src="assets/img/travel/misc-2.webp" alt="Urban Explorer" class="img-fluid">
+                </div>
+                <h5>Urban Explorer</h5>
+                <span class="tour-count">28 tours</span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Tours Grid -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <div class="tours-header">
+              <h3 class="section-subtitle">All Services</h3>
+              <!-- <div class="view-toggle">
+                <button class="toggle-btn active" data-view="grid">
+                  <i class="bi bi-grid-3x3-gap"></i>
+                </button>
+                <button class="toggle-btn" data-view="list">
+                  <i class="bi bi-list"></i>
+                </button>
+              </div> -->
+            </div>
+
+            <div class="tours-grid">
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/hotel.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Hotel</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹3,000</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/city-sightseeing.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>City Sightseeing</h4>
+                  <div class="tour-pricing">
+                    <!-- <span class="price">₹3,000</span>
+                    <span class="per">per person</span> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/taxi-cab-service.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Taxi Cab Service</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹7,000</span>
+                    <span class="per">per day</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/guide-service.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Guide Service</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹500-₹2,500</span>
+                    <span class="per">depend on places</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/jeep-safari.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Jeep Safari</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹2,500</span>
+                    <span class="per">personal jeep</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/camel-safari.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Camel Safari</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹500</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/quad-biking.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Quad Biking</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹1,000</span>
+                    <span class="per">per couple</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/dinner-on-dunes.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Dinner On Dunes</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹35,000</span>
+                    <span class="per">per couple</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/non-touristic-safari.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Non Touristic Safari</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹2,300</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/shopping.jpg" alt="Norwegian Fjords" class="img-fluid">
+                </div>
+                <div class="tour-details">
+                  <h4>Shopping</h4>
+                  <div class="tour-pricing">
+                    <span class="price">₹500-₹2,500</span>
+                    <span class="per">depend on places</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/tour-4.webp" alt="Moroccan Odyssey" class="img-fluid">
+                  <div class="tour-availability">Limited spots</div>
+                </div>
+                <div class="tour-details">
+                  <h4>Moroccan Odyssey</h4>
+                  <p>Journey through ancient medinas, vast deserts, and vibrant markets in this sensory-rich adventure.
+                  </p>
+                  <div class="tour-highlights">
+                    <span><i class="bi bi-clock"></i> 10 Days</span>
+                    <span><i class="bi bi-people"></i> Private Option</span>
+                    <span><i class="bi bi-star-fill"></i> 4.7</span>
+                  </div>
+                  <div class="tour-pricing">
+                    <span class="price">$1,299</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/tour-21.webp" alt="Patagonia Wilderness" class="img-fluid">
+                  <div class="tour-availability">Next: Mar 15</div>
+                </div>
+                <div class="tour-details">
+                  <h4>Patagonia Wilderness</h4>
+                  <p>Trek through pristine landscapes where glaciers meet granite peaks in Earth's most remote
+                    wilderness.</p>
+                  <div class="tour-highlights">
+                    <span><i class="bi bi-clock"></i> 14 Days</span>
+                    <span><i class="bi bi-people"></i> Adventure Level</span>
+                    <span><i class="bi bi-star-fill"></i> 4.9</span>
+                  </div>
+                  <div class="tour-pricing">
+                    <span class="price">$2,799</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/tour-9.webp" alt="Japanese Gardens" class="img-fluid">
+                  <div class="tour-availability">Cherry blossom season</div>
+                </div>
+                <div class="tour-details">
+                  <h4>Japanese Gardens &amp; Temples</h4>
+                  <p>Experience the harmony of ancient traditions and modern elegance in Japan's most sacred spaces.</p>
+                  <div class="tour-highlights">
+                    <span><i class="bi bi-clock"></i> 11 Days</span>
+                    <span><i class="bi bi-people"></i> Cultural Focus</span>
+                    <span><i class="bi bi-star-fill"></i> 4.8</span>
+                  </div>
+                  <div class="tour-pricing">
+                    <span class="price">$2,199</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/tour-16.webp" alt="Scottish Highlands" class="img-fluid">
+                  <div class="tour-availability">Year-round</div>
+                </div>
+                <div class="tour-details">
+                  <h4>Scottish Highlands &amp; Castles</h4>
+                  <p>Discover mist-shrouded lochs, ancient castles, and Highland culture in Scotland's most dramatic
+                    region.</p>
+                  <div class="tour-highlights">
+                    <span><i class="bi bi-clock"></i> 7 Days</span>
+                    <span><i class="bi bi-people"></i> History &amp; Nature</span>
+                    <span><i class="bi bi-star-fill"></i> 4.6</span>
+                  </div>
+                  <div class="tour-pricing">
+                    <span class="price">$1,599</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tour-item">
+                <div class="tour-image">
+                  <img src="assets/img/travel/tour-28.webp" alt="Costa Rica Wildlife" class="img-fluid">
+                  <div class="tour-availability">Eco-certified</div>
+                </div>
+                <div class="tour-details">
+                  <h4>Costa Rica Wildlife Immersion</h4>
+                  <p>Encounter diverse ecosystems from cloud forests to tropical beaches in this biodiversity hotspot.
+                  </p>
+                  <div class="tour-highlights">
+                    <span><i class="bi bi-clock"></i> 9 Days</span>
+                    <span><i class="bi bi-people"></i> Eco-Tourism</span>
+                    <span><i class="bi bi-star-fill"></i> 4.7</span>
+                  </div>
+                  <div class="tour-pricing">
+                    <span class="price">$1,499</span>
+                    <span class="per">per person</span>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Exclusive Offers -->
+        <!-- <div class="row mb-5">
+          <div class="col-12">
+            <h3 class="section-subtitle">Limited-Time Offers</h3>
+            <div class="offers-container">
+              <div class="offer-card">
+                <div class="offer-image">
+                  <img src="assets/img/travel/showcase-12.webp" alt="Early Bird Special" class="img-fluid">
+                </div>
+                <div class="offer-content">
+                  <div class="offer-tag">Early Bird</div>
+                  <h4>Save 25% on Summer Departures</h4>
+                  <p>Book your 2024 European adventure before March 31st and enjoy significant savings on our most
+                    popular routes.</p>
+                  <div class="offer-validity">Valid until March 31, 2024</div>
+                  <a href="#" class="btn btn-accent">Claim Offer</a>
+                </div>
+              </div>
+
+              <div class="offer-card">
+                <div class="offer-image">
+                  <img src="assets/img/travel/showcase-6.webp" alt="Last Minute Deal" class="img-fluid">
+                </div>
+                <div class="offer-content">
+                  <div class="offer-tag">Last Minute</div>
+                  <h4>African Safari - 30% Off</h4>
+                  <p>Join our next departure to Tanzania and Kenya with luxury accommodations and expert guides.</p>
+                  <div class="offer-validity">Departure: February 20th</div>
+                  <a href="#" class="btn btn-accent">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Expert Consultation CTA -->
+        <!-- <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="consultation-cta">
+              <h3>Can't Find What You're Looking For?</h3>
+              <p>Our travel designers craft bespoke journeys tailored to your unique preferences, schedule, and dreams.
+              </p>
+              <div class="cta-actions">
+                <a href="#" class="btn btn-primary">Speak with an Expert</a>
+                <a href="#" class="btn btn-text">Browse Custom Tours</a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
       </div>
 
-    </section><!-- /Travel Destinations Section -->
+    </section><!-- /Travel Tours Section -->
 
   </main>
 
@@ -347,11 +558,12 @@
         <div class="col-lg-4">
           <div class="footer-content">
             <a href="index.html" class="logo d-flex align-items-center mb-4">
-              <span class="sitename">TravelTime</span>
+              <img class="w-75" src="assets/img/logo2.png" alt="">
+              <!-- <span class="sitename">TravelTime</span> -->
             </a>
-            <p class="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.</p>
+            <p class="mb-4">Make your tour memorable with us.</p>
 
-            <div class="newsletter-form">
+            <!-- <div class="newsletter-form">
               <h5>Stay Updated</h5>
               <form action="forms/newsletter.php" method="post" class="php-email-form">
                 <div class="input-group">
@@ -364,32 +576,39 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Thank you for subscribing!</div>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-lg-2 col-6">
           <div class="footer-links">
-            <h4>Company</h4>
+            <h4>Quick Links</h4>
             <ul>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> About</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Careers</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Press</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i> About</a></li>
+              <li><a href="services.html"><i class="bi bi-chevron-right"></i> Services</a></li>
+              <!-- <li><a href="#"><i class="bi bi-chevron-right"></i> Tours</a></li> -->
+              <li><a href="gallery.html"><i class="bi bi-chevron-right"></i> Gallery</a></li>
+              <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact</a></li>
             </ul>
           </div>
         </div>
 
         <div class="col-lg-2 col-6">
           <div class="footer-links">
-            <h4>Solutions</h4>
+            <h4>Services</h4>
             <ul>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Digital Strategy</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Cloud Computing</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Data Analytics</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> AI Solutions</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Cybersecurity</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Hotel</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> City Sightseeing</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Desert Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Taxi Cab Service</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Guide Service</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Jeep Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Camel Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Quad Biking</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Dinner On Dunes</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Non Touristic Safari</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Shopping</a></li>
+
             </ul>
           </div>
         </div>
@@ -402,7 +621,7 @@
                 <i class="bi bi-geo-alt"></i>
               </div>
               <div class="contact-info">
-                <p>2847 Maple Avenue<br>Los Angeles, CA 90210<br>United States</p>
+                <p>Mali Para<br>Jaisalmer-345001</p>
               </div>
             </div>
 
@@ -411,7 +630,8 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <div class="contact-info">
-                <p>+1 (555) 987-6543</p>
+                <p>+91 8290288696</p>
+                <p>+91 8290470696</p>
               </div>
             </div>
 
@@ -420,16 +640,16 @@
                 <i class="bi bi-envelope"></i>
               </div>
               <div class="contact-info">
-                <p>contact@example.com</p>
+                <p>sandscapevoyagesjaisalmer@gmail.com</p>
               </div>
             </div>
 
             <div class="social-links">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-youtube"></i></a>
-              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="https://www.facebook.com/sandscapevoyagesjaisalmer"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/sandscapevoyagesjaisalmer"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.instagram.com/sandscapevoyagesjaisalmer"><i class="bi bi-instagram"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=+91-8290288696&text=Hi!"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.youtube.com/sandscapevoyagesjaisalmer"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
         </div>
@@ -442,21 +662,21 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="copyright">
-              <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+              <p>© <span>Copyright</span> <strong class="px-1 sitename">Sandscape Voyages Jaisalmar</strong> <span>All Rights Reserved</span></p>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="footer-bottom-links">
+            <!-- <div class="footer-bottom-links">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
               <a href="#">Cookie Policy</a>
-            </div>
+            </div> -->
             <div class="credits">
               <!-- All the links in the footer should remain intact. -->
               <!-- You can delete the links only if you've purchased the pro version. -->
               <!-- Licensing information: https://bootstrapmade.com/license/ -->
               <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://linkedin.com/in/gaurav110601/">Gaurav Sharma</a>
             </div>
           </div>
         </div>
@@ -466,7 +686,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
